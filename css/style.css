@@ -5,18 +5,18 @@
 }
 
 body {
-    background-color: black;
+    /*background-color: rgb(236, 115, 149);*/
 }
 
 #container {
-    display: grid;
+    display:grid;
     grid-template-columns: auto 80% auto;
     background-color: rgb(223, 196, 226);
 }
 
 nav {
     display: grid;
-    grid-column-start: 2;
+    grid-column-start:2px;
     grid-template-columns: auto auto auto auto auto;
     background-color: rgb(255, 191, 191);
 }
